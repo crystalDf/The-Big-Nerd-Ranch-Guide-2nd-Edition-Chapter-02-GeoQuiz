@@ -46,7 +46,8 @@
             android:layout_height="wrap_content"
             android:text="@string/prev_button"
             android:drawableStart="@drawable/arrow_left"
-            android:drawablePadding="4dp"/>
+            android:drawablePadding="4dp"
+            android:drawableLeft="@drawable/arrow_left"/>
 
         <Button
             android:id="@+id/next_button"
@@ -54,7 +55,8 @@
             android:layout_height="wrap_content"
             android:text="@string/next_button"
             android:drawableEnd="@drawable/arrow_right"
-            android:drawablePadding="4dp"/>
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/arrow_right"/>
 
     </LinearLayout>
 
